@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="house_navy">#29445D</color>
+    <color name="deep_navy">#1C3245</color>
+    <color name="warm_sand">#E8D9BD</color>
+    <color name="light_sand">#F6EFE3</color>
+    <color name="kitchen_amber">#DFA33A</color>
+    <color name="app_background">#F4F2ED</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

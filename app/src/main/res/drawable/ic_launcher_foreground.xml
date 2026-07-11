@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Roof -->
+    <path
+        android:fillColor="#E8D9BD"
+        android:pathData="M30,55 L54,31 L78,55 Z" />
+
+    <!-- House body -->
+    <path
+        android:fillColor="#F6EFE3"
+        android:pathData="M36,55 h36 v25 h-36 Z" />
+
+    <!-- Vertical interior divider -->
+    <path
+        android:fillColor="#29445D"
+        android:pathData="M53,55 h2 v14 h-2 Z" />
+
+    <!-- Horizontal interior divider -->
+    <path
+        android:fillColor="#29445D"
+        android:pathData="M36,68 h36 v2 h-36 Z" />
+
+    <!-- Amber maintenance dot -->
+    <path
+        android:fillColor="#DFA33A"
+        android:pathData="M54,75 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+</vector>

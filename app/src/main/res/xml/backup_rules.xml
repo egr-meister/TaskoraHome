@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Local DataStore preferences are included in device-to-device transfer and
+   local backups only. No cloud backup logic is implemented by the app itself.
+-->
+<full-backup-content>
+    <include domain="file" path="datastore/" />
+</full-backup-content>

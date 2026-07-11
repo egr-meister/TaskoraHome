@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Navy cutaway house with one amber status dot, for the static splash. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Roof -->
+    <path android:fillColor="#29445D" android:pathData="M20,58 L60,26 L100,58 Z" />
+    <!-- Body -->
+    <path android:fillColor="#1C3245" android:pathData="M28,58 h64 v40 h-64 Z" />
+    <!-- Interior sand zones -->
+    <path android:fillColor="#E8D9BD" android:pathData="M33,63 h24 v14 h-24 Z" />
+    <path android:fillColor="#E8D9BD" android:pathData="M63,63 h24 v14 h-24 Z" />
+    <path android:fillColor="#E8D9BD" android:pathData="M33,82 h54 v11 h-54 Z" />
+    <!-- Amber status dot -->
+    <path android:fillColor="#DFA33A"
+        android:pathData="M78,87 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>

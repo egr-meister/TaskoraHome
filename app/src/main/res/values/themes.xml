@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. Actual UI colors are supplied by the Compose
+         Material 3 theme; this theme mainly controls the window chrome. -->
+    <style name="Theme.TaskoraHome" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- Static splash theme: sand background with the centered cutaway house.
+         MainActivity switches to Theme.TaskoraHome immediately in onCreate. -->
+    <style name="Theme.TaskoraHome.Splash" parent="Theme.TaskoraHome">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>
