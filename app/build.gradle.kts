@@ -150,6 +150,10 @@ dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.activity:activity-compose:1.9.2")
 
+    // Material Components — provides the XML Theme.Material3.* app themes used
+    // by the manifest/splash (Compose Material 3 does not ship XML themes).
+    implementation("com.google.android.material:material:1.12.0")
+
     // Lifecycle / ViewModel
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6")
